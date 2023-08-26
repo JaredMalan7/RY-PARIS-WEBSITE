@@ -9,18 +9,18 @@
 </head>
 <body>
     <div class="nav">
-        <img src="./images/ryparis-logo.png" alt="ryparis-logo">
+        <a href="./indext.html"><img src="./images/ryparis-logo.png" alt="ryparis-logo"></a>
         <ul>
-            <li><a href="#">Popular Recipes</a></li>
-            <li><a href="#">What's New</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Meal Ideas</a></li>
+            <li><a href="./indext.html#healthy">Popular Recipes</a></li>
+            <li><a href="./indext.html#where">What's New</a></li>
+            <li><a href="./indext.html#everyday">Categories</a></li>
+            <li><a href="./indext.html#everyday">Meal Ideas</a></li>
         </ul>
     </div>
     <main>
         <div class="banner">
             <img src="./images/hero-burger.jpeg" alt="banner">
-            <h1><a href="#">HAMBURGER OF THE WEEK</a></h1>
+            <h1><a href="#bengal">HAMBURGER OF THE WEEK</a></h1>
         </div>
         <div class="time">
             <h1>Time</h1>
@@ -32,7 +32,7 @@
                 <li><b>Cook:</b> 15 min</li>
             </ul>
         </div>
-        <div class="bengal-burger">
+        <div class="bengal-burger" id="bengal">
             <h1>BENGAL BURGER</h1>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -41,7 +41,7 @@
                 <span class="fa fa-star checked"></span>
                 <span class="reviews">26 Reviews</span>
             <div class="buttons">
-                <button><a class="btn" href="$">Save Recipe</a></button>
+                <button class="btn" type="button" onclick="">Save Recipe</button>
                 <a href="#"><img src="./images/print.png" alt="print"></a>
             </div>
             <p>
@@ -92,9 +92,8 @@
                     <li>When cooking on a countertop grill, turn on grill, then place burgers
                         on the heated arill</li>
 
-                    <h4>Timing for a countertop grill</h4>
-
-                    <li>For Medium-Rare: Cook for 3 minutes covered and then unplug the machine and continue to cook covered for 2 to 3 more minutes.</li>
+                    <li class="non-numbered">Timing for a countertop grill</li>
+                    <li value="8">For Medium-Rare: Cook for 3 minutes covered and then unplug the machine and continue to cook covered for 2 to 3 more minutes.</li>
                     <li>For Medium: Cook for 4 minutes covered and then unplug the machine and continue to cook covered for 4 more minutes.</li>
                     <li>For Well: Cook for 5 minutes covered and then unplug the machine</li>
                 </ol>
